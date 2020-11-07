@@ -17,9 +17,9 @@ services:
     restart: unless-stopped
 # APP*****************************************
   springbootapp:
-    image: springbootapp
+    image: vikramk1612/zoomanagement:springbootapp
     network_mode: bridge
-    container_name:  springbootapp
+    container_name: springbootapp
     expose:
       - 9081
     ports:
