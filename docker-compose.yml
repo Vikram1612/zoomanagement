@@ -1,7 +1,7 @@
 version: "3"
 services:
   postgres:
-    image: postgres
+    image: vikramk1612/zoomanagement:postgres
     network_mode: bridge
     container_name: postgres
     volumes:
